@@ -6,7 +6,7 @@ import sha1 from "sha1";
 
 //If youre reading this.... go away
 //:)
-var ip = "http://3.93.236.94";
+var ip = "https://teamtext.app";
 async function getIP() {
   return await publicIp.v4();
 }
