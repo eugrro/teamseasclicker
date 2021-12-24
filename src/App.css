@@ -31,6 +31,7 @@ h2, h5 {
   margin-left: 5%;
   background-color: #4CAF50;
   border-radius: 12px;
+  margin-bottom: 25px;
   border: 0px solid black;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -38,4 +39,50 @@ h2, h5 {
   background-color: #0a7c0d; /* Green */
   color: white;
   cursor: pointer;
+}
+
+input {
+  outline: 0;
+  font-size:24px;
+  width: 30%;
+  text-align: center; 
+  background-color: transparent;
+  border-width: 0 0 2px;
+  border-color: black
+}
+
+table{
+  color: grey;
+  border-spacing: 0;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+
+th, td{
+  margin: 0;
+  padding: .5em 1.5em;
+  text-align: center;
+  border-width: 1px 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+th{
+  border-bottom-width: 4px;
+  border-bottom-color: grey;
+}
+
+th:nth-child(even){
+  border-width: 0 4px;
+  border-color: grey;
+  border-style: solid;
+}
+
+td:nth-child(even){
+  border-width: 0px 4px;
+  border-color: grey;
+  border-style: solid;
 }
